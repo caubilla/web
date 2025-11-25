@@ -205,6 +205,10 @@
             font-weight: bold;
         }
 
+        .activity-list li li::before {
+            content: '';
+        }
+
         .info-box {
             background: #e8f4f8;
             border-left: 4px solid var(--color-info);
@@ -586,7 +590,7 @@
                     </div>
 
                     <div class="activity-section">
-                        <span class="time-badge">16:05 - 17:00</span>
+                        <span class="time-badge">16:05 - 17:30</span>
                         <h3 class="activity-title">✈️ Llegada y traslado al hotel</h3>
                         <p>Llegada al Aeropuerto Juan Pablo II de Cracovia (KRK)</p>
                         <div class="info-box">
@@ -599,13 +603,20 @@
                     </div>
 
                     <div class="activity-section">
-                        <span class="time-badge">17:00 - 22:00</span>
+                        <span class="time-badge">18:00 - 19:30 / 21:00 - 22:00</span>
                         <h3 class="activity-title">🎄 Primera noche en Cracovia</h3>
                         <ul class="activity-list">
                             <li>Paseo nocturno por la <strong>Plaza del Mercado (Rynek Główny)</strong> - la plaza medieval más grande de Europa</li>
                             <li>Árbol de Navidad gigante con más de 26.000 luces</li>
+                            <li>Free tour de mosterios (más adelante)</li>
                             <li>Mercado navideño de Cracovia (abierto hasta 20:00, comida hasta 22:00)</li>
-                            <li>Cena en el mercadillo: pierogi, oscypek, grzaniec (vino caliente)</li>
+                            <li>Cena en el mercadillo: 
+                                <ul>
+                                    <li><u>Pierogi:</u> empanadillas rellenas</li>
+                                    <li><u>Oscypek:</u> queso duro ahumado elaborado con leche de oveja</li>
+                                    <li><u>Grzaniec:</u> vino caliente</li>
+                                </ul>
+                            </li>
                         </ul>
                         <div class="info-box">
                             <strong>🎄 Mercadillo Navideño de la Plaza Rynek:</strong><br>
@@ -613,6 +624,18 @@
                             Horario: 10:00-20:00 (puestos de comida hasta 22:00)
                         </div>
                         <a href="https://www.cracovia.es/cracovia-en-navidad/" target="_blank" class="link-button">Más info Navidad en Cracovia</a>
+                    </div>
+
+                    <div class="activity-section">
+                        <span class="time-badge">19:30 - 20:45</span>
+                        <h3 class="activity-title">🚶 Free tour de los misterios y leyendas de Cracovia</h3>
+                        <ul class="activity-list">
+                            <li>Monumento de Adam Mickiewicz</li>
+                            <li>Plaza del Mercado (Rynek Główny)</li>
+                            <li>Basílica de Santa María</li>
+                            <li>Colina de Wawel</li>
+                        </ul>
+                        <a href="https://www.civitatis.com/es/cracovia/tour-misterios-leyendas-cracovia" target="_blank" class="link-button">Enlace Free Tour</a>
                     </div>
                 </div>
 
@@ -623,23 +646,24 @@
                     </div>
 
                     <div class="activity-section">
-                        <span class="time-badge">10:00 - 13:00</span>
+                        <span class="time-badge">10:30 - 13:00</span>
                         <h3 class="activity-title">🚶 Free Tour por Cracovia</h3>
                         <ul class="activity-list">
-                            <li>Teatro Juliusz Słowacki</li>
-                            <li>Murallas medievales y Barbacana</li>
-                            <li>Puerta de San Florián</li>
-                            <li>Basílica de Santa María (exterior/interior opcional)</li>
-                            <li>Lonja de los Paños (Sukiennice)</li>
-                            <li>Torre del antiguo ayuntamiento</li>
+                            <li>La Basílica de Santa María</li>
+                            <li>La Plaza del Mercado</li>
+                            <li>El teatro municipal</li>
+                            <li>La Barbacana</li>
+                            <li>La muralla medieval</li>
+                            <li>La Lonja de los Paños</li>
+                            <li>La Universidad Jaguelónica </li>
+                            <li>Y al final el castillo de Wawel y... el dragón de Cracovia! </li>
                         </ul>
-                        <a href="https://www.civitatis.com/es/cracovia/tour-casco-antiguo/" target="_blank" class="link-button">Reservar Free Tour</a>
-                        <a href="https://www.cracovia.es/actividades/free-tour-cracovia/" target="_blank" class="link-button secondary">Alternativa Free Tour</a>
+                        <a href="https://www.guruwalk.com/es/walks/22111-free-tour-cracovia-casco-antiguo-y-castillo-de-wawel" target="_blank" class="link-button">Enlace Free Tour</a>
                     </div>
 
                     <div class="activity-section">
                         <span class="time-badge">13:30 - 16:00</span>
-                        <h3 class="activity-title">🏰 Colina de Wawel</h3>
+                        <h3 class="activity-title">🏰 Colina + Castillo de Wawel</h3>
                         <ul class="activity-list">
                             <li><strong>Castillo Real de Wawel</strong> - Patrimonio de la Humanidad</li>
                             <li>Salones de Estado y Tesoros de la Corona</li>
@@ -650,6 +674,7 @@
                             <strong>⏰ Horario domingos:</strong> 9:00-16:00<br>
                             <strong>💰 Precio:</strong> ~100-120 PLN (23-28€) combinado
                         </div>
+                        <a href="https://www.civitatis.com/es/cracovia/visita-guiada-castillo-wawel/" target="_blank" class="link-button">Posible tour (13:30 - 29€)</a>
                         <a href="https://www.cracovia.net/castillo-wawel" target="_blank" class="link-button">Info Castillo</a>
                         <a href="https://wawel.krakow.pl/en" target="_blank" class="link-button secondary">Web Oficial</a>
                     </div>
@@ -670,41 +695,50 @@
             <div id="dia3" class="tab-content">
                 <div class="day-card">
                     <div class="day-header">
-                        <h2 class="day-title">Día 3 - Barrio Judío Kazimierz</h2>
+                        <h2 class="day-title">Día 3 - Catedral - Barrio Judío Kazimierz</h2>
                         <span class="day-date">Lunes 8 de diciembre</span>
                     </div>
 
                     <div class="activity-section">
-                        <span class="time-badge">10:00 - 13:00</span>
-                        <h3 class="activity-title">🕍 Free Tour del Barrio Judío</h3>
+                        <span class="time-badge">9:00 - 11:00</span>
+                        <h3 class="activity-title">🕍 Catedral Cracovia</h3>
+                        <p>El acceso solo a la catedral es gratis, la entrada a las criptas, la campana de Segismundo y el Museo de la Catedral: 10€ entrada + audioguía</p>
                         <ul class="activity-list">
-                            <li>Calle Szeroka (escenario de <em>La Lista de Schindler</em>)</li>
-                            <li>Sinagoga Vieja - la más antigua de Polonia</li>
-                            <li>Sinagoga Remuh y cementerio judío</li>
-                            <li>Plaza Wolnica con mercadillo navideño (2-24 dic)</li>
-                            <li>Puente Bernatek hacia Podgórze</li>
+                            <li>El mausoleo de San Estanislao</li>
+                            <li>Las criptas donde se encuentran enterrados monarcas, obispos y algunos héroes nacionales polaco</li>
+                            <li>La gran campana de Segismundo</li>
                         </ul>
-                        <a href="https://www.cracovia.es/que-ver/barrio-judio/" target="_blank" class="link-button">Guía Barrio Judío</a>
-                        <a href="https://www.civitatis.com/es/cracovia/free-tour-barrio-judio/" target="_blank" class="link-button secondary">Reservar Tour</a>
+                        <a href="https://www.katedra-wawelska.pl/en/katedra-wawelska/zaplanuj-wizyte/" target="_blank" class="link-button">Enlace entradas</a>
+                        <a href="https://www.cracovia.net/catedral-wawel" target="_blank" class="link-button secondary">Info Catedral 1</a>
+                        <a href="https://www.cracovia.es/que-ver/catedral-de-wawel/" target="_blank" class="link-button secondary">Info Catedral 2</a>
                     </div>
 
                     <div class="activity-section">
-                        <span class="time-badge">14:00 - 17:00</span>
+                        <span class="time-badge">11:00 - 14:00</span>
                         <h3 class="activity-title">🏭 Museo Fábrica de Oskar Schindler</h3>
                         <p>Experiencia imprescindible para entender la Segunda Guerra Mundial en Cracovia</p>
                         <div class="warning-box">
                             <strong>⚠️ IMPORTANTE - Lunes:</strong><br>
+                            <strong>Entrada gratis</strong><br>
                             Horario: 10:00-14:00 (última entrada 12:30)<br>
                             Duración visita: 1,5-2 horas<br>
-                            <strong>Reserva con antelación</strong> - aforo limitado
                         </div>
-                        <ul class="activity-list">
-                            <li>Plaza de los Héroes del Gueto (Plac Bohaterów)</li>
-                            <li>Monumento de las sillas</li>
-                            <li>Farmacia Bajo el Águila</li>
-                        </ul>
                         <a href="https://www.cracovia.net/fabrica-oskar-schindler" target="_blank" class="link-button">Info Museo</a>
-                        <a href="https://www.schindlers-factory-tickets.com/es/" target="_blank" class="link-button secondary">Reservar Entradas</a>
+                        <a href="https://muzeumkrakowa.pl/en/branches/oskar-schindlers-enamel-factory" target="_blank" class="link-button secondary">Reservar Entradas</a>
+                    </div>
+
+                    <div class="activity-section">
+                        <span class="time-badge">15:00 - 18:00</span>
+                        <h3 class="activity-title">🕍 Free Tour del Barrio Judío</h3>
+                        <ul class="activity-list">
+                            <li>Calle Szeroka (escenario de <em>La Lista de Schindler</em>)</li>
+                            <li>Las siete sinagogas del distrito de Kazimierz</li>
+                            <li>Antiguo cementerio judío</li>
+                            <li>Plaza Wolnica con mercadillo navideño (2-24 dic)</li>
+                            <li>Puente Bernatek hacia Podgórze</li>
+                        </ul>
+                        <a href="https://www.cracovia.es/que-ver/barrio-judio/" target="_blank" class="link-button">Guía Barrio Judío</a>
+                        <a href="https://www.civitatis.com/es/cracovia/free-tour-barrio-judio/" target="_blank" class="link-button">Enlace Tour</a>
                     </div>
 
                     <div class="activity-section">
