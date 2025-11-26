@@ -288,7 +288,7 @@
             display: inline-block;
             background: var(--color-primary);
             color: white;
-            padding: 10px 20px;
+            padding: 10px 15px;
             border-radius: 25px;
             text-decoration: none;
             margin: 5px 5px 5px 0;
@@ -487,7 +487,7 @@
             <!-- RESUMEN -->
             <div id="resumen" class="tab-content active">
                 <h2 style="color: var(--color-primary); margin-bottom: 20px;">Resumen del Viaje</h2>
-                
+<!--                 
                 <div class="summary-grid">
                     <div class="summary-item">
                         <div class="summary-icon">📅</div>
@@ -509,62 +509,64 @@
                         <div class="summary-label">Mercadillos</div>
                         <div class="summary-value">5+</div>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="flight-info">
-                    <h3 style="margin-bottom: 15px;">✈️ Vuelo de Ida - 6 de diciembre</h3>
+                <div class="flight-info" style="width:49%; display:inline-block;">
+                    <h3 style="margin-bottom: 15px;">✈️ Ida - 6 de diciembre</h3>
                     <div class="flight-details">
                         <div class="flight-segment">
                             <div class="flight-time">12:25</div>
                             <div class="flight-city">Madrid (MAD)</div>
                         </div>
-                        <div class="flight-arrow">→</div>
                         <div class="flight-segment">
                             <div class="flight-time">16:05</div>
                             <div class="flight-city">Cracovia (KRK)</div>
                         </div>
                     </div>
                     <p style="text-align: center; margin-top: 10px;">Vuelo: <strong>Ryanair FR 5356</strong></p>
+                    <p style="text-align: center; margin-top: 5px; font-size: 0.9em;">Aeropuerto: Barajas (MAD) - Terminal 1</p>
                 </div>
 
-                <div class="flight-info" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
-                    <h3 style="margin-bottom: 15px;">✈️ Vuelo de Vuelta - 14 de diciembre</h3>
+                <div class="flight-info" style="width:49%; display:inline-block;background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                    <h3 style="margin-bottom: 15px;">✈️ Vuelta - 14 de diciembre</h3>
                     <div class="flight-details">
                         <div class="flight-segment">
                             <div class="flight-time">14:25</div>
                             <div class="flight-city">Varsovia (WAW)</div>
                         </div>
-                        <div class="flight-arrow">→</div>
                         <div class="flight-segment">
                             <div class="flight-time">18:20</div>
                             <div class="flight-city">Madrid (MAD)</div>
                         </div>
                     </div>
-                    <p style="text-align: center; margin-top: 10px;">Vuelo: <strong>Wizz Air W6 1471</strong> | Duración: 3h 55min</p>
-                    <p style="text-align: center; margin-top: 5px; font-size: 0.9em;">Aeropuerto: Warsaw Chopin (WAW) - Terminal Internacional</p>
+                    <p style="text-align: center; margin-top: 10px;">Vuelo: <strong>Wizz Air W6 1471</strong></p>
+                    <p style="text-align: center; margin-top: 5px; font-size: 0.9em;">Aeropuerto: Warsaw Chopin (WAW)</p>
                 </div>
 
                 <h3 style="color: var(--color-secondary); margin: 30px 0 15px 0;">🏨 Alojamientos Reservados</h3>
                 
-                <div class="day-card">
+                <div class="day-card" style="width:33%; display:inline-block;">
                     <h4 style="color: var(--color-primary); margin-bottom: 10px;">Grand Hotel Krakow</h4>
-                    <p><strong>📍 Cracovia</strong> | 6-10 diciembre (4 noches)</p>
-                    <p style="margin-top: 10px;">Hotel histórico en pleno centro, a pasos de la Plaza del Mercado</p>
-                    <a href="https://www.google.com/maps/search/?api=1&query=Grand+Hotel+Krakow" target="_blank" class="link-button secondary">Ver ubicación</a>
+                    <p><strong>📍 Cracovia</strong> | 6-10 diciembre</p>
+                    <p style="margin-top: 10px;">Hotel histórico en pleno centro, cerca de la Plaza del Mercado</p>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Grand+Hotel+Krakow" target="_blank" class="link-button secondary">📍</a>
+                    <a href="https://es.trip.com/order/all" target="_blank" class="link-button secondary">Reserva</a>
                 </div>
 
-                <div class="day-card">
-                    <h4 style="color: var(--color-primary); margin-bottom: 10px;">Q Hotel Plus Wrocław</h4>
-                    <p><strong>📍 Breslavia/Wrocław</strong> | 10-12 diciembre (2 noches)</p>
-                    <p style="margin-top: 10px;">Hotel moderno con excelentes servicios</p>
-                    <a href="https://www.google.com/maps/search/?api=1&query=Q+Hotel+Plus+Wroclaw" target="_blank" class="link-button secondary">Ver ubicación</a>
+                <div class="day-card" style="width:32%; display:inline-block;">
+                    <h4 style="color: var(--color-primary); margin-bottom: 10px;">The Granary</h4>
+                    <p><strong>📍 Breslavia</strong> | 10-12 diciembre</p>
+                    <p style="margin-top: 10px;">Hotel 5 estrellas en granero del siglo XVI en el centro de la ciudad</p>
+                    <a href="https://www.google.com/maps/place/The+Granary+-+La+Suite+Hotel/@51.1062983,17.0321307,17z/data=!3m1!4b1!4m11!3m10!1s0x470fc2712d490715:0x905812639a984339!5m4!1s2025-12-10!2i2!4m1!1i2!8m2!3d51.1062983!4d17.0347056!16s%2Fg%2F1tdrw0_n?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D" target="_blank" class="link-button secondary">📍</a>
+                    <a href="https://www.agoda.com/es-es/account/bookings.html?sort=BookingStartDate&state=Upcoming&page=1" target="_blank" class="link-button secondary">Reserva</a>
                 </div>
 
-                <div class="day-card">
+                <div class="day-card" style="width:33%; display:inline-block;">
                     <h4 style="color: var(--color-primary); margin-bottom: 10px;">Royal Tulip Warsaw Centre</h4>
-                    <p><strong>📍 Varsovia</strong> | 12-14 diciembre (2 noches)</p>
-                    <p style="margin-top: 10px;">Hotel céntrico con vistas a la ciudad</p>
-                    <a href="https://www.google.com/maps/search/?api=1&query=Royal+Tulip+Warsaw+Centre" target="_blank" class="link-button secondary">Ver ubicación</a>
+                    <p><strong>📍 Varsovia</strong> | 12-14 diciembre</p>
+                    <p style="margin-top: 10px;">Hotel céntrico con vistas a la ciudad </p></br>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Royal+Tulip+Warsaw+Centre" target="_blank" class="link-button secondary">📍</a>
+                    <a href="https://es.trip.com/order/all" target="_blank" class="link-button secondary">Reserva</a>
                 </div>
 
                 <div class="warning-box">
@@ -573,6 +575,12 @@
 
                 <h3 style="color: var(--color-secondary); margin: 30px 0 15px 0;">🎯 Excursiones Reservadas</h3>
                 
+                <div class="success-box">
+                    <strong>📅 9 de diciembre - 14:50h</strong><br>
+                    <strong>Excursión a Minas de Sal de Wieliczka</strong> ( horas aprox.)<br>
+                    Salida desde Plaza Matejko, Cracovia<br>
+                    Incluye: Transporte + Guía + Entradas
+                </div>
                 <div class="success-box">
                     <strong>📅 10 de diciembre - 9:30h</strong><br>
                     <strong>Excursión a Auschwitz-Birkenau</strong> (7 horas aprox.)<br>
@@ -759,9 +767,21 @@
                     </div>
 
                     <div class="activity-section">
-                        <span class="time-badge">9:00 - 14:00</span>
+                        <span class="time-badge">10:00 - 14:00</span>
+                        <h3 class="activity-title">🛍️ Mañana libre en Cracovia</h3>
+                        <ul class="activity-list">
+                            <li>Compras navideñas en el mercadillo</li>
+                            <li>Galería Krakowska - centro comercial con mercadillo y pista de patinaje</li>
+                            <li>Última noche en Cracovia - cena especial</li>
+                            <li>Vino caliente despedida en la plaza</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-section">
+                        <span class="time-badge">14:50 - 19:00</span>
                         <h3 class="activity-title">⛏️ Excursión a las Minas de Sal</h3>
                         <p><strong>Patrimonio de la Humanidad UNESCO desde 1978</strong></p>
+                        <p><strong>Punto encuentro: Plaza de Matejko 2 - 14:50h</strong></p>
                         <ul class="activity-list">
                             <li>A 15 km de Cracovia (30 min en transporte)</li>
                             <li>Recorrido de 3,5 km a 135 metros de profundidad</li>
@@ -769,25 +789,8 @@
                             <li>Lagos subterráneos y esculturas de sal</li>
                             <li>Temperatura constante: 17°C (perfecto para el frío)</li>
                         </ul>
-                        <div class="info-box">
-                            <strong>🎫 Opciones de visita:</strong><br>
-                            • Tour organizado con guía español: ~30€ (incluye transporte)<br>
-                            • Tours guiados en español: 12:45 y 15:45<br>
-                            • Por libre: Autobús 304 desde Galería Krakowska
-                        </div>
                         <a href="https://www.wieliczka-salt-mine-tours.com/es/" target="_blank" class="link-button">Web Oficial Minas</a>
-                        <a href="https://www.civitatis.com/es/cracovia/excursion-minas-sal-wieliczka/" target="_blank" class="link-button secondary">Reservar Tour</a>
-                    </div>
-
-                    <div class="activity-section">
-                        <span class="time-badge">15:00 - 22:00</span>
-                        <h3 class="activity-title">🛍️ Tarde libre en Cracovia</h3>
-                        <ul class="activity-list">
-                            <li>Compras navideñas en el mercadillo</li>
-                            <li>Galería Krakowska - centro comercial con mercadillo y pista de patinaje</li>
-                            <li>Última noche en Cracovia - cena especial</li>
-                            <li>Vino caliente despedida en la plaza</li>
-                        </ul>
+                        <a href="https://holacracovia.com/excursion-minas-sal/" target="_blank" class="link-button secondary">Reservar Tour</a>
                     </div>
                 </div>
             </div>
@@ -826,21 +829,15 @@
                         <h3 class="activity-title">🚆 Traslado Cracovia → Breslavia</h3>
                         <div class="transport-card">
                             <div class="transport-title">Opciones de Transporte</div>
-                            <p><strong>🚂 TREN (Recomendado):</strong></p>
+                            <p><strong>🚂 TREN:</strong></p>
                             <ul style="margin-left: 20px; margin-top: 10px;">
                                 <li>Duración: ~3 horas</li>
-                                <li>Precio: 13-20€</li>
+                                <li>Precio: 120 PLN - 60/90 PLN</li>
                                 <li>Estaciones: Kraków Główny → Wrocław Główny</li>
-                                <li>Trenes sugeridos: 18:00-19:00 (llegada ~21:00-22:00)</li>
-                            </ul>
-                            <p style="margin-top: 15px;"><strong>🚌 AUTOBÚS (Alternativa):</strong></p>
-                            <ul style="margin-left: 20px; margin-top: 10px;">
-                                <li>FlixBus: 3h 15min - 3h 40min</li>
-                                <li>Precio: 7-14€</li>
+                                <li>Trenes sugeridos: 17:54-21:00 // 18:57-22:22</li>
                             </ul>
                         </div>
-                        <a href="https://www.thetrainline.com/es/horarios-trenes/cracovia-central-a-wroclaw-breslavia-central" target="_blank" class="link-button">Ver Horarios Tren</a>
-                        <a href="https://www.flixbus.es/rutas/cracovia-breslavia" target="_blank" class="link-button secondary">Ver FlixBus</a>
+                        <a href="https://ebilet.intercity.pl/wyszukiwanie?dwyj=2025-12-10&swyj=5100028&sprzy=5100069&time=17%3A00&przy=0&sprzez=&ticket100=1010%3B1010&ticket50=&brail=0&polbez=0" target="_blank" class="link-button">Ver Horarios Tren</a>
                     </div>
 
                     <div class="activity-section">
@@ -848,8 +845,7 @@
                         <h3 class="activity-title">🏨 Llegada a Breslavia</h3>
                         <ul class="activity-list">
                             <li>Check-in en Q Hotel Plus Wrocław</li>
-                            <li>Cena ligera cerca del hotel</li>
-                            <li>Descanso tras día intenso</li>
+                            <li>🎄 Mercadillo Navideño de Breslavia (ver abajo) Horario: 10:00-21:00</li>
                         </ul>
                     </div>
                 </div>
@@ -920,7 +916,17 @@
                             Fechas: 29 nov - 7 ene<br>
                             Horario: 10:00-21:00
                         </div>
-                        <a href="https://www.viajandoporelmundomundial.com/wroclaw-en-navidad/" target="_blank" class="link-button">Guía Navidad Wrocław</a>
+                        <div class="info-box">
+                            <strong>🎄 Otros mercados:</strong><br>
+                            Hipódromo de Breslavia – Partynice: del 6/12 al 21/12<br>
+                            Marina Kleczkow: del 28/11 al 24/12<br>
+                            Distrito de los 4 templos: calle Sw. Antoniego. Todos los fines de semana de diciembre<br>
+                            Lesnica Palace: del 13 al 21 de dic.<br>
+                            Horario: 10:00-21:00
+                        </div>
+                        <a href="https://baifoworld.com/wroclaw-en-navidad-mercado-de-breslavia/" target="_blank" class="link-button">Mercados de Navidad Wrocław</a>
+                        <a href="https://www.organizotuviaje.com/polonia/mercado-de-navidad-de-breslavia-wroclaw/" target="_blank" class="link-button">Mercados de Navidad Wrocław</a>
+                        <a href="https://www.viajandoporelmundomundial.com/wroclaw-en-navidad/" target="_blank" class="link-button">Guía de Navidad Wrocław</a>
                     </div>
                 </div>
             </div>
@@ -929,7 +935,7 @@
             <div id="dia7" class="tab-content">
                 <div class="day-card">
                     <div class="day-header">
-                        <h2 class="day-title">Día 7 - Breslavia → Varsovia</h2>
+                        <h2 class="day-title">Día 7 - Opción 1: Breslavia → Varsovia</h2>
                         <span class="day-date">Viernes 12 de diciembre</span>
                     </div>
 
@@ -956,14 +962,47 @@
                                 <li>Estaciones: Wrocław Główny → Warszawa Centralna</li>
                                 <li>Trenes sugeridos: 11:00-12:00 (llegada ~15:00-16:00)</li>
                             </ul>
-                            <p style="margin-top: 15px;"><strong>🚌 AUTOBÚS (Alternativa):</strong></p>
+                        </div>
+                        <a href="https://ebilet.intercity.pl/wyszukiwanie?dwyj=2025-12-12&swyj=5100069&sprzy=242&time=12%3A00&przy=0&sprzez=&ticket100=1010%3B1010&ticket50=&brail=0&polbez=0" target="_blank" class="link-button">Ver Horarios Tren</a>
+                    </div>
+
+                    <div class="activity-section">
+                        <span class="time-badge">16:00 - 22:00</span>
+                        <h3 class="activity-title">🏰 Primera tarde en Varsovia</h3>
+                        <ul class="activity-list">
+                            <li>Check-in en Royal Tulip Warsaw Centre</li>
+                            <li>Paseo por la Ruta Real iluminada (calle Krakowskie Przedmieście)</li>
+                            <li>Plaza del Castillo - árbol de Navidad natural</li>
+                            <li>Mercadillo navideño de la Barbacana (muralla medieval)</li>
+                            <li>Carruseles vintage y figuras decorativas años 20</li>
+                        </ul>
+                        <div class="info-box">
+                            <strong>🎄 Mercadillos de Varsovia:</strong><br>
+                            • Barbacana: 21 nov - 6 ene | 12:00-21:30<br>
+                            • Plaza Desfiles: 28 nov - 1 ene | 11:00-21:00 (vie-sáb hasta 22:00)
+                        </div>
+                    </div>
+                </div>
+                <div class="day-card">
+                    <div class="day-header">
+                        <h2 class="day-title">Día 7 - Opción 2: Breslavia → Varsovia</h2>
+                        <span class="day-date">Viernes 12 de diciembre</span>
+                    </div>
+
+                    <div class="activity-section">
+                        <span class="time-badge">09:00 - 12:00</span>
+                        <h3 class="activity-title">🚆 Traslado Breslavia → Varsovia</h3>
+                        <div class="transport-card">
+                            <div class="transport-title">Opciones de Transporte</div>
+                            <p><strong>🚂 TREN (Recomendado):</strong></p>
                             <ul style="margin-left: 20px; margin-top: 10px;">
-                                <li>FlixBus: 4h 30min</li>
-                                <li>Precio: 14-16€</li>
+                                <li>Duración: ~4-4,5 horas</li>
+                                <li>Precio: 14-25€</li>
+                                <li>Estaciones: Wrocław Główny → Warszawa Centralna</li>
+                                <li>Trenes sugeridos: 11:00-12:00 (llegada ~15:00-16:00)</li>
                             </ul>
                         </div>
-                        <a href="https://www.thetrainline.com/es/horarios-trenes/wroclaw-breslavia-central-a-varsovia" target="_blank" class="link-button">Ver Horarios Tren</a>
-                        <a href="https://www.flixbus.es/rutas/breslavia-varsovia" target="_blank" class="link-button secondary">Ver FlixBus</a>
+                        <a href="https://ebilet.intercity.pl/wyszukiwanie?dwyj=2025-12-12&swyj=5100069&sprzy=242&time=12%3A00&przy=0&sprzez=&ticket100=1010%3B1010&ticket50=&brail=0&polbez=0" target="_blank" class="link-button">Ver Horarios Tren</a>
                     </div>
 
                     <div class="activity-section">
@@ -1061,7 +1100,7 @@
                         <h3 class="activity-title">✈️ Traslado al aeropuerto</h3>
                         <div class="warning-box">
                             <strong>⚠️ IMPORTANTE:</strong><br>
-                            Aeropuerto: <strong>Warsaw Chopin Airport (WAW)</strong><br>
+                            Aeropuerto: <strong>Warsaw Chopin (WAW)</strong><br>
                             Salida vuelo: <strong>14:25</strong><br>
                             Llega al aeropuerto mínimo 2 horas antes (12:25)
                         </div>
@@ -1080,7 +1119,7 @@
                                 <div class="flight-segment">
                                     <div class="flight-time">14:25</div>
                                     <div class="flight-city">Varsovia (WAW)</div>
-                                    <p style="font-size: 0.9em; margin-top: 5px;">Warsaw Chopin Airport</p>
+                                    <p style="font-size: 0.9em; margin-top: 5px;">Warsaw Chopin</p>
                                 </div>
                                 <div class="flight-arrow">→</div>
                                 <div class="flight-segment">
@@ -1247,7 +1286,7 @@
 
                 <h3 style="color: var(--color-secondary); margin: 20px 0 15px 0;">Vuelos</h3>
 
-                <div class="flight-info">
+                <div class="flight-info" style="width:49%; display:inline-block;">
                     <h3 style="margin-bottom: 15px;">✈️ Ida: Madrid → Cracovia</h3>
                     <div class="flight-details">
                         <div class="flight-segment">
@@ -1263,7 +1302,7 @@
                     <p style="text-align: center; margin-top: 10px;"><strong>Ryanair FR 5356</strong> | 6 de diciembre</p>
                 </div>
 
-                <div class="flight-info" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                <div class="flight-info" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); width:49%; display:inline-block;">
                     <h3 style="margin-bottom: 15px;">✈️ Vuelta: Varsovia → Madrid</h3>
                     <div class="flight-details">
                         <div class="flight-segment">
@@ -1276,7 +1315,7 @@
                             <div class="flight-city">Madrid (MAD)</div>
                         </div>
                     </div>
-                    <p style="text-align: center; margin-top: 10px;"><strong>Wizz Air W6 1471</strong> | 14 de diciembre | 3h 55min</p>
+                    <p style="text-align: center; margin-top: 10px;"><strong>Wizz Air W6 1471</strong> | 14 de diciembre</p>
                 </div>
 
                 <h3 style="color: var(--color-secondary); margin: 40px 0 15px 0;">Trenes entre ciudades</h3>
